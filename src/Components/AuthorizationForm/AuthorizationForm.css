@@ -1,0 +1,40 @@
+.input {
+  padding: 12px 15px;
+  border: 1px solid #cdd3d9;
+  border-radius: 5px;
+  margin-right: 10px;
+  outline: none;
+}
+
+.input:hover, .input:focus {
+  border: 1px solid grey;
+}
+
+.btn {
+  padding: 12px 15px;
+  border: none;
+  background: none;
+  outline: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.btn_theme_green {
+  border: 1px solid #30a44d;
+  color: #30a44d;
+}
+
+.btn_theme_red {
+  border: 1px solid rgb(212, 39, 39);
+  color: rgb(212, 39, 39);
+}
+
+.btn_theme_green:hover, .btn_theme_green:focus {
+  border: 1px solid rgb(212, 39, 39);
+  color: rgb(212, 39, 39);
+}
+
+.btn_theme_red:hover, .btn_theme_red:focus {
+  border: 1px solid #30a44d;
+  color: #30a44d;
+}

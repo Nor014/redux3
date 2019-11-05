@@ -1,0 +1,19 @@
+.profile {
+  display: flex;
+  margin-right: 5px;
+  align-items: center;
+}
+
+.profile__wellcome {
+  margin-right: 5px;
+  font-weight: 500;
+}
+
+.profile__avatar {
+  border-radius: 100%;
+  overflow: hidden;
+}
+
+.profile__avatar img {
+  display: block;
+}
